@@ -14,13 +14,13 @@
     document.addEventListener("mousemove", onMouseMove);
   }
 
-  /*  function onTouchMove(e) {
+  function onTouchMove(e) {
     if (e.touches.length > 0) {
       for (let i = 0; i < e.touches.length; i++) {
         addBubble(e.touches[i].clientX, e.touches[i].clientY);
       }
     }
-  } */
+  }
 
   function onMouseMove(e) {
     cursor.x = e.clientX;
