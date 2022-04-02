@@ -442,7 +442,7 @@ hr {
 
 figure {
   position: relative;
-  overflow: hidden;
+
   margin: 0;
   height: 100%;
   width: 100%;
@@ -452,6 +452,7 @@ figure {
   margin: 0 auto;
   padding: 2em;
   max-width: 960px;
+  overflow: hidden;
 }
 
 .projects img,
@@ -466,6 +467,7 @@ figure {
 .full-width {
   margin: 0px -2000px;
   padding: 5em 2000px;
+  /* overflow: hidden; */
 }
 
 .project-1 {
