@@ -17,6 +17,7 @@ html {
 html,
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 :root {
@@ -43,7 +44,6 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   position: relative;
-  overflow-x: hidden;
 }
 
 img {
@@ -442,7 +442,6 @@ hr {
 
 figure {
   position: relative;
-
   margin: 0;
   height: 100%;
   width: 100%;
@@ -452,7 +451,7 @@ figure {
   margin: 0 auto;
   padding: 2em;
   max-width: 960px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .projects img,
