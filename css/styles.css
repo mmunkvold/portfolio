@@ -165,7 +165,8 @@ a:focus {
   letter-spacing: 1.1px;
 }
 
-.btn-link:hover {
+.btn-link:hover,
+.btn-link:focus {
   background: transparent;
   color: var(--primary-clr);
   border: 1px solid var(--primary-clr);
