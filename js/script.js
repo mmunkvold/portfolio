@@ -1,3 +1,4 @@
+//toggle navbar
 const nav = document.getElementById("navbar");
 const navbar = document.querySelector(".navbar-nav");
 const toggle = document.querySelector(".nav__toggle");
@@ -27,3 +28,10 @@ window.addEventListener("scroll", () => {
     nav.classList.remove("scroll");
   }
 });
+
+//to top button
+const toTopButton = document.getElementById("totop");
+
+toTopButton.onclick = function () {
+  window.scrollTo(0, 0);
+};

@@ -2,6 +2,7 @@
 
 (function bubblesCursor() {
   let width = window.innerWidth;
+  let height = window.innerHeight;
   let cursor = { x: width / 2, y: width / 2 };
   let bubbles = [];
 
@@ -12,6 +13,12 @@
 
   function bindEvents() {
     document.addEventListener("mousemove", onMouseMove);
+    window.addEventListener("resize", onWindowResize);
+  }
+
+  function onWindowResize(e) {
+    width = window.innerWidth;
+    height = window.innerHeight;
   }
 
   function onTouchMove(e) {
