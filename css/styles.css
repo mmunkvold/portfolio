@@ -85,8 +85,8 @@ a {
 a:hover,
 a:focus {
   color: var(--primary-clr);
+  font-weight: bold;
   cursor: pointer;
-  text-decoration: underline;
 }
 
 #current {
@@ -98,6 +98,7 @@ a:focus {
 #current:hover,
 #current:focus {
   text-decoration: none;
+  font-weight: normal;
   cursor: auto;
 }
 
