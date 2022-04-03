@@ -41,7 +41,7 @@
               <li class="nav__item">
                 <a class="nav__link" href="images/CV_MonicaNikolaisen.pdf" target="_blank" aria-label="Opens a pdf with the CV">my cv</a>
               </li>
-              <li class="nav__item"><a class="nav__link current" href="projects.html">my projects</a></li>
+              <li class="nav__item"><a id="current" class="nav__link current" href="projects.html">my projects</a></li>
               <li class="nav__item"><a class="nav__link" href="about.html">and this is me</a></li>
             </ul>
           </div>
@@ -121,7 +121,9 @@
         <div class="projects">
           <div id="gamehub" class="flex-container project-1 full-width">
             <div>
-              <a href="https://monicas-gamehub.netlify.app/"><img src="images/projects/gamehub.jpg" alt="Gamehub ecommerce website" /></a>
+              <a class="project__img" href="https://monicas-gamehub.netlify.app/"
+                ><img src="images/projects/gamehub.jpg" alt="Gamehub ecommerce website"
+              /></a>
             </div>
             <div>
               <h2>Gamehub</h2>
@@ -139,7 +141,7 @@
           </div>
           <div id="hugatree" class="flex-container project-2 full-width">
             <div class="order-1">
-              <a href="https://hugatree.netlify.app/"><img src="images/projects/hugatree.jpg" alt="Hug a tree blog" /></a>
+              <a class="project__img" href="https://hugatree.netlify.app/"><img src="images/projects/hugatree.jpg" alt="Hug a tree blog" /></a>
             </div>
             <div>
               <h2>Hug A Tree</h2>
@@ -157,7 +159,7 @@
           </div>
           <div id="museum" class="flex-container project-3 full-width">
             <div>
-              <a href="https://monicas-science-museum.netlify.app/"
+              <a class="project__img" href="https://monicas-science-museum.netlify.app/"
                 ><img src="images/projects/science-museum.jpg" alt="Community Science Museum informational website"
               /></a>
             </div>
@@ -195,7 +197,7 @@
           </div>
           <div id="styleguide" class="flex-container project-5 full-width">
             <div>
-              <a href="https://snowfun-styleguide.netlify.app/"
+              <a class="project__img" href="https://snowfun-styleguide.netlify.app/"
                 ><img src="images/projects/snowfun-styleguide.jpg" alt="Snow Fun's online Style Guide"
               /></a>
             </div>
@@ -215,7 +217,9 @@
           </div>
           <div id="70shome" class="flex-container project-6 full-width">
             <div class="order-1">
-              <a href="https://70s-home.netlify.app/"><img src="images/projects/70s-home.jpg" alt="70's Home Retro Interior Design website" /></a>
+              <a class="project__img" href="https://70s-home.netlify.app/"
+                ><img src="images/projects/70s-home.jpg" alt="70's Home Retro Interior Design website"
+              /></a>
             </div>
             <div>
               <h2>70's Home - Retro Home Decor Website</h2>
@@ -240,7 +244,7 @@
         </div>
       </main>
     </div>
-    <!-- This belongs to wrapper - but there is no start wrapper-tag - do I need this here? -->
+    <button id="totop"><i class="fas fa-arrow-up"></i></button>
     <footer>
       <div class="footer-container">
         <a href="index.html" class="copyright">&copy;2022 Monica M</a>
