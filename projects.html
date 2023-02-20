@@ -59,6 +59,8 @@
         <input type="radio" id="sass/scss" name="categories" value="sass/scss" />
         <input type="radio" id="wordpress" name="categories" value="wordpress" />
         <input type="radio" id="design" name="categories" value="design" />
+        <input type="radio" id="react" name="categories" value="react" />
+        <input type="radio" id="cssmodules" name="categories" value="cssmodules" />
 
         <p class="center">Click on a card to read more about the project.</p>
         <p class="center">Use the filter to list them by skill or technology:</p>
@@ -70,10 +72,12 @@
           <li><label for="sass/scss">sass/scss</label></li>
           <li><label for="wordpress">wordpress</label></li>
           <li><label for="design">design</label></li>
+          <li><label for="cssmodules">cssmodules</label></li>
+          <li><label for="react">react</label></li>
         </ol>
 
         <div class="grid-container cards">
-          <a class="card" href="#gamehub" tabindex="0" data-category="html css javascript wordpress design">
+          <a class="card" href="#gamehub" tabindex="0" data-category="html css javascript design">
             <figure>
               <img src="images/illustrations/gamehub.png" alt="Gamehub website" />
             </figure>
@@ -103,6 +107,21 @@
               <img src="images/illustrations/70shome.png" alt="70's Home website" />
             </figure>
           </a>
+          <a class="card" href="#starwars" tabindex="0" data-category="html css react design">
+            <figure>
+              <img src="images/illustrations/starwars.png" alt="Star Wars website" />
+            </figure>
+          </a>
+          <a class="card" href="#holidaze" tabindex="0" data-category="html react cssmodules design">
+            <figure>
+              <img src="images/illustrations/holidaze.png" alt="Holidaze website" />
+            </figure>
+          </a>
+          <a class="card" href="#portfolio" tabindex="0" data-category="html css javascript design">
+            <figure>
+              <img src="images/illustrations/portfolio.png" alt="Portfolio website" />
+            </figure>
+          </a>
         </div>
 
         <div class="projects">
@@ -118,9 +137,11 @@
               <p><span class="bold">Tools and frameworks: </span>Vanilla HTML, CSS and JS</p>
               <hr />
               <div class="display-flex-row">
-                <!-- <a href="#"><i class="fab fa-github"></i></a> -->
+                <a class="btn-link" href="https://github.com/mmunkvold/portfolio-gamehub"><i class="fab fa-github"></i> github repo</a>
                 <a class="btn-link" href="https://monicas-gamehub.netlify.app/">Live Demo</a>
               </div>
+              <span>Live Demo not working correctly as api is not public at the moment</span>
+              <br />
               <a class="btn-overview" href="#overview">back to overview</a>
             </div>
           </div>
@@ -136,9 +157,11 @@
               <p><span class="bold">Tools and frameworks: </span>Vanilla HTML, CSS and JS</p>
               <hr />
               <div class="display-flex-row">
-                <!-- <a href="#"><i class="fab fa-github"></i></a> -->
+                <a class="btn-link" href="https://github.com/mmunkvold/portfolio-hugatree"><i class="fab fa-github"></i> github repo</a>
                 <a class="btn-link" href="https://hugatree.netlify.app/">Live Demo</a>
               </div>
+              <span>Live Demo not working correctly as api is not public at the moment</span>
+              <br />
               <a class="btn-overview" href="#overview">back to overview</a>
             </div>
           </div>
@@ -156,15 +179,15 @@
               <p><span class="bold">Tools and frameworks: </span>Vanilla HTML, CSS and JS</p>
               <hr />
               <div class="display-flex-row">
-                <!-- <a href="#"><i class="fab fa-github"></i></a> -->
+                <a class="btn-link" href="https://github.com/mmunkvold/portfolio-science-museum"><i class="fab fa-github"></i> github repo</a>
                 <a class="btn-link" href="https://monicas-science-museum.netlify.app/">Live Demo</a>
               </div>
-              <a class="btn-overview dark-txt" href="#overview">back to overview</a>
+              <a class="btn-overview" href="#overview">back to overview</a>
             </div>
           </div>
           <div id="runshoerun" class="flex-container project-4 full-width">
             <div class="order-1">
-              <img src="images/projects/runshoerun.jpg" alt="Run Shoe, Run ecommerce website" />
+              <a href="https://runshoerun.netlify.app/"> <img src="images/projects/runshoerun.jpg" alt="Run Shoe, Run ecommerce website" /></a>
             </div>
             <div>
               <h2>Run Shoe, Run!</h2>
@@ -174,10 +197,12 @@
               <p><span class="bold">Tools and frameworks: </span>HTML, CSS, SASS/SCSS and JS</p>
               <hr />
               <div class="display-flex-row">
-                <!-- <a href="#"><i class="fab fa-github"></i></a> -->
-                <span>Live Demo not possible as api not public at the moment</span>
+                <a class="btn-link" href="https://github.com/mmunkvold/runshoerun"><i class="fab fa-github"></i> github repo</a>
+                <a class="btn-link" href="https://runshoerun.netlify.app/">Live Demo</a>
               </div>
-              <a class="btn-overview dark-txt" href="#overview">back to overview</a>
+              <span>Live Demo not working correctly as api is not public at the moment</span>
+              <br />
+              <a class="btn-overview" href="#overview">back to overview</a>
             </div>
           </div>
           <div id="styleguide" class="flex-container project-5 full-width">
@@ -194,10 +219,10 @@
               <p><span class="bold">Tools and frameworks: </span>Vanilla HTML and CSS</p>
               <hr />
               <div class="display-flex-row">
-                <!-- <a href="#"><i class="fab fa-github"></i></a> -->
+                <a class="btn-link" href="https://github.com/mmunkvold/ca-styleguide"><i class="fab fa-github"></i> github repo</a>
                 <a class="btn-link" href="https://snowfun-styleguide.netlify.app/">Live Demo</a>
               </div>
-              <a class="btn-overview dark-txt" href="#overview">back to overview</a>
+              <a class="btn-overview" href="#overview">back to overview</a>
             </div>
           </div>
           <div id="70shome" class="flex-container project-6 full-width">
@@ -212,10 +237,69 @@
               <p><span class="bold">Tools and frameworks: </span>Vanilla HTML, CSS</p>
               <hr />
               <div class="display-flex-row">
-                <!-- <a href="#"><i class="fab fa-github"></i></a> -->
+                <a class="btn-link" href="https://github.com/mmunkvold/70s-update-2"><i class="fab fa-github"></i> github repo</a>
                 <a class="btn-link" href="https://70s-home.netlify.app/">Live Demo</a>
               </div>
               <a class="btn-overview dark-txt" href="#overview">back to overview</a>
+            </div>
+          </div>
+          <div id="starwars" class="flex-container project-7 full-width">
+            <div>
+              <a href="https://charactersofstarwars.netlify.app/"><img src="images/projects/starwars.jpg" alt="Star Wars Characters website" /></a>
+            </div>
+            <div>
+              <h2>Characters of Star Wars</h2>
+              <p class="larger-txt">Website</p>
+              <p>
+                A simple website making use of an api call to display characters of Star Wars. The api call fetches Star Wars Characters and display
+                both all and single result, and login to admin area (nothing there though).
+              </p>
+              <p>School project.</p>
+              <p><span class="bold">Tools and frameworks: </span>Vanilla HTML, CSS and React</p>
+              <hr />
+              <div class="display-flex-row">
+                <a class="btn-link" href="https://github.com/mmunkvold/jsframeworksCA"><i class="fab fa-github"></i> Github repo</a>
+                <a class="btn-link" href="https://charactersofstarwars.netlify.app/">Live Demo</a>
+              </div>
+              <a class="btn-overview" href="#overview">back to overview</a>
+            </div>
+          </div>
+          <div id="holidaze" class="flex-container project-8 full-width">
+            <div class="order-1">
+              <a href="https://magical-holidaze.netlify.app/"><img src="images/projects/holidaze.jpg" alt="The Holidaze website" /></a>
+            </div>
+            <div>
+              <h2>The Holidaze</h2>
+              <p class="larger-txt">Booking website</p>
+              <p>The Holidaze is a booking website where you can find accommodations in Bergen.</p>
+              <p>School project. Final Exam.</p>
+              <p><span class="bold">Tools and frameworks: </span>Vanilla HTML, React and CSS Modules</p>
+              <hr />
+              <div class="display-flex-row">
+                <a class="btn-link" href="https://github.com/mmunkvold/nexam"><i class="fab fa-github"></i> Github repo</a>
+                <a class="btn-link" href="https://magical-holidaze.netlify.app/">Live Demo</a>
+              </div>
+              <span>Live Demo not working correctly as api is not public at the moment</span>
+              <br />
+              <a class="btn-overview" href="#overview">back to overview</a>
+            </div>
+          </div>
+          <div id="portfolio" class="flex-container project-8 full-width">
+            <div class="order-1">
+              <a href="https://monicas-portfolio.netlify.app/"><img src="images/projects/portfolio.jpg" alt="Portfolio website" /></a>
+            </div>
+            <div>
+              <h2>My Portfolio</h2>
+              <p class="larger-txt">Portfolio website</p>
+              <p>This portfolio is made in vanilla js, vanilla css and html - as I wanted to make something using just vanilla.</p>
+              <p>School project.</p>
+              <p><span class="bold">Tools and frameworks: </span>Vanilla HTML, JavaScript and CSS</p>
+              <hr />
+              <div class="display-flex-row">
+                <a class="btn-link" href="https://github.com/mmunkvold/portfolio"><i class="fab fa-github"></i> Github repo</a>
+                <a class="btn-link" href="https://monicas-portfolio.netlify.app/">Live Demo</a>
+              </div>
+              <a class="btn-overview" href="#overview">back to overview</a>
             </div>
           </div>
           <div class="project project-end full-width">
@@ -230,7 +314,7 @@
     <button id="totop" aria-label="Goes to top of page"><i class="fas fa-arrow-up"></i></button>
     <footer>
       <div class="footer-container">
-        <a href="index.html" class="copyright">&copy;2022 Monica M</a>
+        <a href="index.html" class="copyright">&copy;2023 Monica M</a>
       </div>
     </footer>
     <script src="js/script.js"></script>

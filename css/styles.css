@@ -192,6 +192,7 @@ a:focus {
   background: transparent;
   padding: 0.7em;
   font-size: 0.5em;
+  color: var(--dark-clr);
   letter-spacing: 1.1px;
   border: 1px solid var(--medium-grey-clr);
   border-radius: var(--border-radius);
@@ -452,22 +453,31 @@ figure img {
   background: #fafafa;
 }
 .project-2 {
-  background: #f0f0f0;
+  background: #f6f6f6;
 }
 .project-3 {
   background: #e6e6e6;
 }
 .project-4 {
-  background: #dbdbdb;
+  background: #d4d4d4;
 }
 .project-5 {
-  background: #d1d1d1;
+  background: #c3c3c3;
 }
 .project-6 {
-  background: #c7c7c7;
+  background: #b3b3b3;
 }
 .project-7 {
-  background: #bdbdbd;
+  background: #a1a1a1;
+}
+.project-8 {
+  background: #909090;
+}
+.project-9 {
+  background: #808080;
+}
+.project-10 {
+  background: #6e6e6e;
 }
 
 .project-end {
@@ -525,7 +535,9 @@ input[type="radio"] {
 [value="javascript"]:checked ~ .cards .card:not([data-category~="javascript"]),
 [value="wordpress"]:checked ~ .cards .card:not([data-category~="wordpress"]),
 [value="sass/scss"]:checked ~ .cards .card:not([data-category~="sass/scss"]),
-[value="design"]:checked ~ .cards .card:not([data-category~="design"]) {
+[value="design"]:checked ~ .cards .card:not([data-category~="design"]),
+[value="react"]:checked ~ .cards .card:not([data-category~="react"]),
+[value="cssmodules"]:checked ~ .cards .card:not([data-category~="cssmodules"]) {
   display: none;
 }
 
@@ -535,7 +547,9 @@ input[type="radio"] {
 [value="javascript"]:checked ~ .filters [for="javascript"],
 [value="wordpress"]:checked ~ .filters [for="wordpress"],
 [value="sass/scss"]:checked ~ .filters [for="sass/scss"],
-[value="design"]:checked ~ .filters [for="design"] {
+[value="design"]:checked ~ .filters [for="design"],
+[value="react"]:checked ~ .filters [for="react"],
+[value="cssmodules"]:checked ~ .filters [for="cssmodules"] {
   background: var(--primary-clr);
   color: var(--white-clr);
 }
@@ -650,10 +664,6 @@ hr {
 
 .light-txt {
   color: var(--white-clr);
-}
-
-.dark-txt {
-  color: var(--dark-clr);
 }
 
 /* ========================== */
