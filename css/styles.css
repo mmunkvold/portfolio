@@ -476,9 +476,6 @@ figure img {
 .project-9 {
   background: #808080;
 }
-.project-10 {
-  background: #6e6e6e;
-}
 
 .project-end {
   background: var(--dark-clr);
@@ -537,7 +534,8 @@ input[type="radio"] {
 [value="sass/scss"]:checked ~ .cards .card:not([data-category~="sass/scss"]),
 [value="design"]:checked ~ .cards .card:not([data-category~="design"]),
 [value="react"]:checked ~ .cards .card:not([data-category~="react"]),
-[value="cssmodules"]:checked ~ .cards .card:not([data-category~="cssmodules"]) {
+[value="cssmodules"]:checked ~ .cards .card:not([data-category~="cssmodules"]),
+[value="vue"]:checked ~ .cards .card:not([data-category~="vue"]) {
   display: none;
 }
 
@@ -549,7 +547,8 @@ input[type="radio"] {
 [value="sass/scss"]:checked ~ .filters [for="sass/scss"],
 [value="design"]:checked ~ .filters [for="design"],
 [value="react"]:checked ~ .filters [for="react"],
-[value="cssmodules"]:checked ~ .filters [for="cssmodules"] {
+[value="cssmodules"]:checked ~ .filters [for="cssmodules"],
+[value="vue"]:checked ~ .filters [for="vue"] {
   background: var(--primary-clr);
   color: var(--white-clr);
 }
