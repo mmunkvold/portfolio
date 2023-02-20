@@ -61,6 +61,7 @@
         <input type="radio" id="design" name="categories" value="design" />
         <input type="radio" id="react" name="categories" value="react" />
         <input type="radio" id="cssmodules" name="categories" value="cssmodules" />
+        <input type="radio" id="vue" name="categories" value="vue" />
 
         <p class="center">Click on a card to read more about the project.</p>
         <p class="center">Use the filter to list them by skill or technology:</p>
@@ -74,6 +75,7 @@
           <li><label for="design">design</label></li>
           <li><label for="cssmodules">cssmodules</label></li>
           <li><label for="react">react</label></li>
+          <li><label for="vue">vue</label></li>
         </ol>
 
         <div class="grid-container cards">
@@ -122,6 +124,11 @@
               <img src="images/illustrations/portfolio.png" alt="Portfolio website" />
             </figure>
           </a>
+          <a class="card" href="#portfolio2" tabindex="0" data-category="html css vue design">
+            <figure>
+              <img src="images/illustrations/portfolio2.png" alt="Portfolio 2 website" />
+            </figure>
+          </a>
         </div>
 
         <div class="projects">
@@ -134,7 +141,7 @@
               <p class="larger-txt">Ecommerce website</p>
               <p>Gamehub is an ecommerce website made to help users buy and sell their own new or used games.</p>
               <p>School project.</p>
-              <p><span class="bold">Tools and frameworks: </span>Vanilla HTML, CSS and JS</p>
+              <p><span class="bold">Tools and frameworks: </span>HTML, CSS and JS</p>
               <hr />
               <div class="display-flex-row">
                 <a class="btn-link" href="https://github.com/mmunkvold/portfolio-gamehub"><i class="fab fa-github"></i> github repo</a>
@@ -154,7 +161,7 @@
               <p class="larger-txt">Personal blog</p>
               <p>A blog dedicated to a chosen theme of interest.</p>
               <p>School project.</p>
-              <p><span class="bold">Tools and frameworks: </span>Vanilla HTML, CSS and JS</p>
+              <p><span class="bold">Tools and frameworks: </span>HTML, CSS and JS</p>
               <hr />
               <div class="display-flex-row">
                 <a class="btn-link" href="https://github.com/mmunkvold/portfolio-hugatree"><i class="fab fa-github"></i> github repo</a>
@@ -176,7 +183,7 @@
               <p class="larger-txt">Informational website</p>
               <p>Community Science Museum is a museum dedicated to cater for all. This is their website.</p>
               <p>School project.</p>
-              <p><span class="bold">Tools and frameworks: </span>Vanilla HTML, CSS and JS</p>
+              <p><span class="bold">Tools and frameworks: </span>HTML, CSS and JS</p>
               <hr />
               <div class="display-flex-row">
                 <a class="btn-link" href="https://github.com/mmunkvold/portfolio-science-museum"><i class="fab fa-github"></i> github repo</a>
@@ -216,7 +223,7 @@
               <p class="larger-txt">Online Style Guide</p>
               <p>Snow Fun! style guide is an online guide for the Snow Fun! company.</p>
               <p>School project.</p>
-              <p><span class="bold">Tools and frameworks: </span>Vanilla HTML and CSS</p>
+              <p><span class="bold">Tools and frameworks: </span>HTML and CSS</p>
               <hr />
               <div class="display-flex-row">
                 <a class="btn-link" href="https://github.com/mmunkvold/ca-styleguide"><i class="fab fa-github"></i> github repo</a>
@@ -234,7 +241,7 @@
               <p class="larger-txt">Interior design website</p>
               <p>70's home is a project where design was the main focus. Here textures and patterns play a big role.</p>
               <p>School project.</p>
-              <p><span class="bold">Tools and frameworks: </span>Vanilla HTML, CSS</p>
+              <p><span class="bold">Tools and frameworks: </span>HTML, CSS</p>
               <hr />
               <div class="display-flex-row">
                 <a class="btn-link" href="https://github.com/mmunkvold/70s-update-2"><i class="fab fa-github"></i> github repo</a>
@@ -255,7 +262,7 @@
                 both all and single result, and login to admin area (nothing there though).
               </p>
               <p>School project.</p>
-              <p><span class="bold">Tools and frameworks: </span>Vanilla HTML, CSS and React</p>
+              <p><span class="bold">Tools and frameworks: </span>HTML, CSS and React</p>
               <hr />
               <div class="display-flex-row">
                 <a class="btn-link" href="https://github.com/mmunkvold/jsframeworksCA"><i class="fab fa-github"></i> Github repo</a>
@@ -273,7 +280,7 @@
               <p class="larger-txt">Booking website</p>
               <p>The Holidaze is a booking website where you can find accommodations in Bergen.</p>
               <p>School project. Final Exam.</p>
-              <p><span class="bold">Tools and frameworks: </span>Vanilla HTML, React and CSS Modules</p>
+              <p><span class="bold">Tools and frameworks: </span>HTML, React and CSS Modules</p>
               <hr />
               <div class="display-flex-row">
                 <a class="btn-link" href="https://github.com/mmunkvold/nexam"><i class="fab fa-github"></i> Github repo</a>
@@ -285,19 +292,41 @@
             </div>
           </div>
           <div id="portfolio" class="flex-container project-8 full-width">
-            <div class="order-1">
+            <div>
               <a href="https://monicas-portfolio.netlify.app/"><img src="images/projects/portfolio.jpg" alt="Portfolio website" /></a>
             </div>
             <div>
               <h2>My Portfolio</h2>
               <p class="larger-txt">Portfolio website</p>
-              <p>This portfolio is made in vanilla js, vanilla css and html - as I wanted to make something using just vanilla.</p>
+              <p>This portfolio is made in js, css and html - as I wanted to make something using just vanilla.</p>
               <p>School project.</p>
-              <p><span class="bold">Tools and frameworks: </span>Vanilla HTML, JavaScript and CSS</p>
+              <p><span class="bold">Tools and frameworks: </span>HTML, JavaScript and CSS</p>
               <hr />
               <div class="display-flex-row">
                 <a class="btn-link" href="https://github.com/mmunkvold/portfolio"><i class="fab fa-github"></i> Github repo</a>
                 <a class="btn-link" href="https://monicas-portfolio.netlify.app/">Live Demo</a>
+              </div>
+              <a class="btn-overview" href="#overview">back to overview</a>
+            </div>
+          </div>
+          <div id="portfolio2" class="flex-container project-9 full-width">
+            <div class="order-1">
+              <a href="https://zesty-paletas-6cdc0a.netlify.app/"><img src="images/projects/portfolio2.jpg" alt="Portfolio 2 website" /></a>
+            </div>
+            <div>
+              <h2>My Portfolio - 2</h2>
+              <p class="larger-txt">Portfolio website 2</p>
+              <p>
+                Just a simple portfolio to show the last 3 school project. These projects are added to the main portfolio (the one you are on right
+                now). Just wanted to show this here as this is made with Vue and that it shows how the portfolio could look like in dark version (this
+                is something I might add in the future).
+              </p>
+              <p>School project.</p>
+              <p><span class="bold">Tools and frameworks: </span>HTML, Vue and CSS</p>
+              <hr />
+              <div class="display-flex-row">
+                <a class="btn-link" href="https://github.com/mmunkvold/portfolio-2"><i class="fab fa-github"></i> Github repo</a>
+                <a class="btn-link" href="https://zesty-paletas-6cdc0a.netlify.app/">Live Demo</a>
               </div>
               <a class="btn-overview" href="#overview">back to overview</a>
             </div>
